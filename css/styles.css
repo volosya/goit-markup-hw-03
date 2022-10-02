@@ -1,0 +1,220 @@
+:root {
+    --head-section-bgc: #2F303A;
+    --footer-bgc:#2F303A;
+    --grand-color:#757575;
+    --secondary-color: #212121;
+    --hover-color:#2196F3;
+    --current-color:#2196F3;
+    --button-color:#2196F3;
+    --filter-button-color: #F5F4FA;
+}
+body {
+    background-color: #ffffff;
+    color:var(--grand-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.link {
+    text-decoration: none;
+    }
+
+/* Styles of header */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo-item {
+    color:#2196F3;
+}
+.head-list {
+    list-style-type: none;
+}
+.header-link {
+    color: var(--secondary-color);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-link:hover {
+    color: var(--hover-color);
+}
+.header-link:focus {
+    color: var(--hover-color);
+}
+.head-address-link {
+    color: var(--grand-color);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.head-address-link:hover {
+    color: var(--hover-color);
+}
+.head-address-link:focus {
+    color: var(--hover-color);
+}
+.header-link.current {
+    color: var(--current-color);
+}
+
+/* Styles of main page*/
+.heat {
+    background-color: var(--head-section-bgc);
+}
+.heat-header {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+}
+.heat-button {
+   background-color: var(--button-color);
+   color:#ffffff;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   text-align: center;
+   letter-spacing: 0.06em;
+   border: none;
+   border-radius: 4px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   cursor: pointer;
+}
+.heat-button:hover {
+    background-color: #188CE8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.heat-button:focus {
+    background-color: #188CE8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.specialty-list {
+    list-style-type: none;
+}
+.specialty-head {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+.specialty-text {
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.about-head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.about-list {
+    list-style-type: none;
+}
+.team {
+    background-color: #F5F4FA;;
+}
+.team-head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.team-list {
+    list-style-type: none;
+}
+.team-name {
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+/* Styles of footer */
+.footer {
+    background-color: var(--footer-bgc);
+}
+.fotter-list {
+    list-style-type: none;
+}
+.footer-link {
+    color:#ffffff;
+}
+.address-link { 
+    font-style: normal;   
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, .6)
+}
+.address-link:hover {
+    color:var(--hover-color);
+}
+.address-link:focus {
+    color: var(--hover-color);
+}
+.footer-map {
+    color: #ffffff;
+}
+/* Styles of portfolio */
+.pf-list-button {
+    list-style-type: none;
+}
+.portfolio-list {
+    list-style-type: none;
+}
+.portfolio-button {
+    cursor: pointer;
+    background-color: var(--filter-button-color);
+    color: var(--secondary-color);   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    border-radius: 4px;   
+}
+.portfolio-button:hover {
+    background-color: var(--hover-color);
+    color: #ffffff;
+}
+.portfolio-button:focus {
+    background-color: var(--hover-color);
+    color: #ffffff;
+}
+.pf-head {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-color);
+}
+.pf-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
